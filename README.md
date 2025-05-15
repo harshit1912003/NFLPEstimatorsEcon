@@ -62,7 +62,6 @@ Convergence is achieved when the difference between estimators of two successive
           *   `utils.py`: Helper functions for $\rho(\tau)$, $\lambda(\tau)$, $\omega(\tau)$, and $\tau(\omega)$.
       *   `example.ipynb`: Jupyter notebook demonstrating the N-FLP algorithm on simulated data, comparing it with OLS, and illustrating its robustness to outliers.
       *   `econ.ipynb`: Jupyter notebook applying the N-FLP model to a real-world economics dataset (`sampled_data613.csv`) to analyze wage determinants and identify outliers.
-      *   `econpaper.pdf`: The original research paper by Alain Desgagné.
       *   `presentation.pdf`: Our presentation for the course.
 
 ## Usage and Examples
