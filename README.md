@@ -30,7 +30,7 @@ Where:
 
 The N-FLP density is effectively a normal density down-weighted in its central part ($|z| \le \tau$) and, correspondingly, has its tails thickened to accommodate extreme values. The threshold $\tau > 1.69901$ (defining the outlier region) and the tail's decay rate $\lambda > 0$ are automatically determined as functions of $\omega$.
 
-![nflp](images/distribution.png)
+![nflp](/distribution.png)
 
 ### Parameter Estimation
 The N-FLP estimators for the regression coefficients $\boldsymbol{\hat{\beta}}$, scale $\hat{\sigma}$, and mixture weight $\hat{\omega}$ are derived using an adapted Expectation-Maximization (EM) algorithm. A key output is the probability $\hat{\pi}_i$ for each observation $y_i$ of belonging to the normal component, given by:
@@ -75,7 +75,7 @@ This notebook:
 *   Compares the true line, OLS fit, and N-FLP fit graphically.
 *   Introduces outliers to the data and re-fits both OLS and N-FLP models to demonstrate the robustness of N-FLP.
 
-![compare](images/comparision.png)
+![compare](/comparision.png)
 
 ### 2. Economic Data Application (`econ.ipynb`)
 This notebook utilizes the `sampled_data613.csv` dataset (from IPUMS USA 2019 focusing on wage, education, and experience). It performs:
