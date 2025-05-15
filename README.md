@@ -80,14 +80,7 @@ This notebook:
 ### 2. Economic Data Application (`econ.ipynb`)
 This notebook utilizes the `sampled_data613.csv` dataset (from IPUMS USA 2019 focusing on wage, education, and experience). It performs:
 *  A Mincer‑type wage regression:
-$$
-\log(\mathrm{INCWAGE}) 
-  = \beta_0 
-  + \beta_1 \mathrm{Years\_Education} 
-  + \beta_2 \mathrm{Exp} 
-  + \beta_3 \mathrm{Exp}^2 
-  + \varepsilon
-$$
+\($\log(\text{INCWAGE})$ = $\beta_0$ + $\beta_1$ $\text{YearsEducation}$ + $\beta_2$ $\text{Exp}$ + $\beta_3$ $\text{Exp}^2$ + $\varepsilon$.)\
 *   OLS estimation of the model.
 *   N-FLP estimation of the model.
 *   Analysis of the $\hat{\pi}_i$ values to identify potential outliers.
